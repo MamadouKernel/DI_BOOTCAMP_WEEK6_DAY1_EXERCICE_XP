@@ -29,7 +29,7 @@ public class Exercice4 {
 
     
     public static void main(String[] args) {
-            Exercice4 exo4 = new Exercice4("hello");
+            Exercice4 exo4 = new Exercice4("KONATE");
             System.out.println(exo4.getScore());
     }
 }

@@ -1,38 +1,30 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+package com.exercicexp.exercice3;
 
-
-/**
- *
- * @author kernel-mk
- */
 public class Circle {
     
-    private Double radius = 1.0;
+    private double radius = 1.0;
     private String colors = "red";
     
     public Circle(){
         
     }
     
-    public Circle(Double radius){
+    public Circle(double radius){
         
     }
     
-    public Circle(Double radius,String colors){
-        
+    public Circle(double radius,String colors){
+      // TODO document why this constructor is empty
     }
    
-    public Double getRadius(){
+    public double getRadius(){
         return this.radius;
     }
     public String getColors(){
         return this.colors;
     }
     
-    public void setRadius(Double radius){
+    public void setRadius(double radius){
         this.radius = radius;
     }
 
@@ -44,7 +36,7 @@ public class Circle {
         return "Circle[radius=" + this.radius + ",color=" + this.colors + "]";
     }
 
-    public Double getArea(){
+    public double getArea(){
         return Math.PI * this.radius * this.radius;
     }
     

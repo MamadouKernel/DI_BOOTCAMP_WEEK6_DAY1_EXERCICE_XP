@@ -1,3 +1,4 @@
+package com.exercicexp.exercice3;
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
@@ -5,7 +6,7 @@
 
 /**
  *
- * @author kernel-mk
+ * @author konate-mk
  */
 public class Exercice3 {
 

@@ -12,18 +12,19 @@ import java.util.Scanner;
  */
 public class Exercice1 {
     public void TriangleValidity() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Entrez le premier angle: ");
-        int angle1 = scanner.nextInt();
-        System.out.print("Entrez le deuxième angle: ");
-        int angle2 = scanner.nextInt();
-        System.out.print("Entrez le troisième angle: ");
-        int angle3 = scanner.nextInt();
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.print("Entrez le premier angle: ");
+            int angle1 = scanner.nextInt();
+            System.out.print("Entrez le deuxième angle: ");
+            int angle2 = scanner.nextInt();
+            System.out.print("Entrez le troisième angle: ");
+            int angle3 = scanner.nextInt();
 
-        if (angle1 + angle2 + angle3 == 180) {
-            System.out.println("C'est un triangle valide.");
-        } else {
-            System.out.println("Ce n'est pas un triangle valide.");
+            if (angle1 + angle2 + angle3 == 180) {
+                System.out.println("C'est un triangle valide.");
+            } else {
+                System.out.println("Ce n'est pas un triangle valide.");
+            }
         }
     }
     public static void main(String[] args) {
